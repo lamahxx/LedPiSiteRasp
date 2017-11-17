@@ -16,8 +16,7 @@
 			background-position: center;
 			background-size: cover; 
 		}
-		a:link  { text-decoration: : none }
-		a:visited {text-decoration: none}
+		.login {text-decoration: none}
 
 		.bgimg {background-image: url("https://i.imgur.com/4c8hBV0.jpg")}
 		</style>
@@ -25,7 +24,7 @@
 	<body>
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
 			<div class="w3-display-middle w3-text-white w3-center">
-				<h1 class="w3-jumbo"><a href="index.php">Welcome Stranger </a></h1>
+				<h1 class="w3-jumbo"><a href="index.php" class="login">Welcome Stranger </a></h1>
 				<h2><b>nothing here matters...</b></h2>
 				<p><?php echo date('d/m h:i'); ?>
 			</div>
