@@ -16,7 +16,7 @@
 			background-position: center;
 			background-size: cover; 
 		}
-		a { text-decoration-style: : none }
+		a { text-decoration: : none }
 
 		.bgimg {background-image: url("https://i.imgur.com/4c8hBV0.jpg")}
 		</style>
