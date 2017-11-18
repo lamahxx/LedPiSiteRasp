@@ -23,7 +23,19 @@
 	<body>
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
 			<div class="w3-display-middle w3-text-white w3-center">
-				<h1 class="w3-jumbo">Welcome <?php echo $_GET['name']; ?></h1>
+				<h1 class="w3-jumbo">Welcome 
+					<?php 
+						if (isset($_GET['name']))
+						{
+							echo $_GET['name'];  
+						}
+						else 
+						{
+							echo 'No User Input'
+						}
+						?>
+				</h1>
+
 				<h2><b>nothing here matters...</b></h2>
 				<p><?php echo date('d/m h:i'); ?>
 			</div>

@@ -24,9 +24,19 @@
 	<body>
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
 			<div class="w3-display-middle w3-text-white w3-center">
-				<h1 class="w3-jumbo"><a href="index.php?name=Master" class="login">Welcome Stranger </a></h1>
+				<h1 class="w3-jumbo"><a href="index.php?name=You" class="login">Welcome Stranger </a></h1>
 				<h2><b>nothing here matters...</b></h2>
-				<p><?php echo date('d/m h:i'); ?>
+				<p><?php echo date('d/m h:i'); ?></p>
+
+				<p>Hello there who are you ?</p>
+				
+				<form action="index.php" method="post">
+					<p>
+						<input type="text" name="login"/>
+						<input type="text" name="password"/>
+						<input type="submit" value="Submit"/>
+					</p>
+				</form>
 			</div>
 		</header>
 
