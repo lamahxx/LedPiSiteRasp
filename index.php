@@ -31,7 +31,7 @@
 						}
 						else 
 						{
-							echo 'No User Input'
+							echo 'No User Input';
 						}
 						?>
 				</h1>
