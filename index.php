@@ -21,6 +21,12 @@
 		</style>
 
 	<body>
+
+		<?php (isset($_POST['Led']))
+		{
+			exec("sudo python /home/pi/rpi_ws281x/python/examples/strandtest.py")
+		}
+		
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
 			<div class="w3-display-middle w3-text-white w3-center">
 				<h1 class="w3-jumbo">
@@ -28,8 +34,15 @@
 						if (isset($_POST['password']) AND
 						 $_POST['password'] == "netflix")
 						{
-							echo 'Welcome Master';  
+							echo 'Welcome Master';
+							?>
+							
+
+							<form method="post">
+							<button class="btn" name="Led">CLIQUEZ BANDE DE SALOPES</button>
+							</form>
 						}
+						<?php 
 						else 
 						{
 							echo 'What are you doing Stranger';
