@@ -37,13 +37,9 @@
 						 $_POST['password'] == "netflix")
 						{
 							echo 'Welcome Master';
-							?>
-							
-
-							<form method="post">
-							<button class="btn" name="Led">CLIQUEZ BANDE DE SALOPES</button>
-							</form>
+							?>	
 						}
+
 						<?php 
 						else 
 						{
@@ -51,6 +47,14 @@
 						}
 						?>
 				</h1>
+				<?php
+				if(isset($_POST['password']) AND $_POST['password'] == "netflix")
+					?>
+				{
+					<form method="post">
+						<button class="btn" name="Led">CLIQUEZ BANDE DE SALOPES</button>
+					</form>
+				}
 
 				<h2><b>nothing here matters...</b></h2>
 				<p><?php echo date('d/m h:i'); ?>
