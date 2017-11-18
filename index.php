@@ -23,7 +23,6 @@
 	<body>
 
 	
-	
 
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
 			<div class="w3-display-middle w3-text-white w3-center">
@@ -34,6 +33,8 @@
 						{
 							echo 'Welcome Master';		
 						}
+						?>
+						<?php
 						else 
 						{
 							echo 'What are you doing Stranger';
@@ -50,7 +51,7 @@
 						<button class="btn" name="Led">CLIQUEZ BANDE DE SALOPES</button>
 					</form>
 				
-}
+		}
 
 				<h2><b>nothing here matters...</b></h2>
 				<p><?php echo date('d/m h:i'); ?>
