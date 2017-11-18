@@ -31,11 +31,8 @@
 						if (isset($_POST['password']) AND
 						 $_POST['password'] == "netflix")
 						{
-							echo 'Welcome Master';
-							?>	
+							echo 'Welcome Master';		
 						}
-
-						<?php 
 						else 
 						{
 							echo 'What are you doing Stranger';
