@@ -22,12 +22,7 @@
 
 	<body>
 
-		<?php 
-		if(isset($_POST['Led']))
-		{
-			echo shell_exec("rpi_ws281x/python/examples/strandtest.py");
-		}
-		?>
+	
 	
 
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
