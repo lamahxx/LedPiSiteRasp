@@ -25,8 +25,8 @@
 			<div class="w3-display-middle w3-text-white w3-center">
 				<h1 class="w3-jumbo">
 					<?php 
-						if (isset(htmlspecialchars($_POST['password'])) AND
-						 $_POST['password'] == "netflix")
+						if (isset($_POST['password']) AND
+						 $_POST['password'] == "netflix"))
 						{
 							echo 'Welcome Master';  
 						}
