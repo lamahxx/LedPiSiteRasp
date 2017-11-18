@@ -29,12 +29,16 @@
 				<p><?php echo date('d/m h:i'); ?></p>
 
 				<p>Hello there who are you ?</p>
-				
+
 				<form action="index.php" method="post">
-					<p>
-						<input type="text" name="login"/>
-						<input type="text" name="password"/>
-						<input type="submit" value="Submit"/>
+					<div class="container">
+						<label><b>Username</b></label>
+						<input type="text" name="login" placeholder="Enter Username" required />
+
+						<label><b>Password</b></label>
+						<input type="text" name="password" placeholder="Enter Password" required />
+						<button type="submit">Login</button>
+						
 					</p>
 				</form>
 			</div>
