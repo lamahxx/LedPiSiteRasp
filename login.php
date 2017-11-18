@@ -32,14 +32,9 @@
 
 				<form action="index.php" method="post">
 					<div class="container">
-						<label><b>Username</b></label>
-						<input type="text" name="login" placeholder="Enter Username" required />
-
-						<label><b>Password</b></label>
 						<input type="text" name="password" placeholder="Enter Password" required />
-						<button type="submit">Login</button>
-						
-					</p>
+						<button type="submit">Submit</button>
+					</div>
 				</form>
 			</div>
 		</header>

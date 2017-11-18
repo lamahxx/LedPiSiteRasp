@@ -23,15 +23,16 @@
 	<body>
 		<header class="w3-display-container w3-wide bgimg w3-grayscale-mine" id="home">
 			<div class="w3-display-middle w3-text-white w3-center">
-				<h1 class="w3-jumbo">Welcome 
+				<h1 class="w3-jumbo">
 					<?php 
-						if (isset($_GET['name']))
+						if (isset(htmlspecialchars($_POST['password'])) AND
+						 $_POST['password'] == "netflix")
 						{
-							echo $_GET['name'];  
+							echo 'Welcome Master';  
 						}
 						else 
 						{
-							echo 'No User Input';
+							echo 'What are you doing Stranger';
 						}
 						?>
 				</h1>
