@@ -26,7 +26,7 @@
 				<h1 class="w3-jumbo">
 					<?php 
 						if (isset($_POST['password']) AND
-						 $_POST['password'] == "netflix"))
+						 $_POST['password'] == "netflix")
 						{
 							echo 'Welcome Master';  
 						}
